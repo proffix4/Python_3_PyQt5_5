@@ -85,7 +85,6 @@ class Main(QDialog):
             file = open(path_to_file.split(".")[0] + '-Output.txt', 'w')
 
             for k, i in enumerate(list_of_numbers):
-                print(k)
                 file.write(i + " ")
                 if ((k+1) % 5) == 0:
                     file.write("\n")
